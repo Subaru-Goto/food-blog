@@ -1,7 +1,7 @@
 import { reviewData } from './data/data.js'
 
 const popularArticles = document.querySelector('.articles')
-const hamburgerIcon = document.querySelector('.hamburger')
+const searchIcon = document.querySelector('.fa-magnifying-glass')
 
 document.addEventListener('click', function(event) {
   if(event.target.dataset.like) {
@@ -10,10 +10,21 @@ document.addEventListener('click', function(event) {
   else if (event.target.dataset.share) {
     handleShare(event.target.dataset.share)
   }
+  else if (event.target.classList.contains('hamburger')) {
+    const hamburgerIcon = event.target.querySelector('.hamburger')
+    openHamburger(event)
+  }
+  else if (event.target.classList.contains('fa-magnifying-glass')) {
+    searchArticles(event)
+  }
 })
 
 function openHamburger(event) {
+  event.target.style.color = 'tomato'
+}
 
+function searchArticles(event) {
+  console.log('clicked!')
 }
 
 function handleLikes(articleId) {
