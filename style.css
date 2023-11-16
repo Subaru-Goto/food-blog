@@ -116,6 +116,7 @@ article p {
   width: 5em;
   height: 5em;
 }
+
 .fa-share, .fa-heart{
   color: #999;
 }
@@ -126,7 +127,6 @@ article p {
 .shared{
   color: lime;
 }
-
 
 .ad__container{
   background-color: lightgray;
