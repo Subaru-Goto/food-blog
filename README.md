@@ -6,7 +6,7 @@ This blog is to learn how responsive design works and social meida like function
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://subaru-goto.github.io/food-blog/ 
 
 ## My process
 
