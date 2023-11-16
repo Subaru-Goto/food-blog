@@ -1,0 +1,155 @@
+/* Reset default margin */
+html, body {
+  margin: 0;
+  min-width: 310px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header__top{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fa-bars{
+  margin-left: auto;
+}
+
+.hero{
+  height: 15em;
+  background-repeat: none;
+  background-size: cover;
+  background-image: url("./images/hero.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__search-container{
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articles{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.article-preview {
+  border: 1px solid #999;
+  border-radius: 10px;
+  width: 25%;
+  flex: 0 14em;
+  margin-bottom: 0;
+}
+
+.article-preview__inner {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.article-preview__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .5em;
+}
+
+.article__likes{
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Typography */
+.fa-bars{
+  font-size: 1.5rem;
+}
+
+.hero__search-bar{
+  width: 100%;
+  height: 2em;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 1px 1px 2px#000000;
+}
+
+.fa-magnifying-glass{
+  margin-right: .3em;
+}
+
+article p {
+  text-align: center;
+}
+
+.author__img{
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  margin: 1em 0 0 1em;
+}
+
+.author__food-img{
+  width: 5em;
+  height: 5em;
+}
+.fa-share, .fa-heart{
+  color: #999;
+}
+.liked{
+  color: red;
+}
+
+.shared{
+  color: lime;
+}
+
+
+.ad__container{
+  background-color: lightgray;
+  height: 10em;
+}
+
+footer{
+  margin-top: 1em;
+}
+
+.footer__contact{
+  text-align: center;
+  color: #000000;
+  display: block;
+  text-decoration: none;
+}
+
+footer p{
+  text-align: right;
+  font-size: .7rem;
+}
+
+
+
+
+
